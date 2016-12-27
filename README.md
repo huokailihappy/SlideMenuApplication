@@ -1,3 +1,3 @@
 # SlideMenuApplication
 联系人列表，房间号列表，显示前两位，支持数字字母检索，支持快速滑动，采用RecycleView展示数据，支持下拉刷新下拉加载更多，支持添加搜索头部
-![image](pic/联系人.png)
+![image](https://raw.githubusercontent.com/huokailihappy/pic/master/联系人.png)
