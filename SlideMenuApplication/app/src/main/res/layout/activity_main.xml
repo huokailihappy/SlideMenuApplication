@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.git.hkl.slidemenuapplication.MainActivity">
+
+    <com.jcodecraeer.xrecyclerview.XRecyclerView
+        android:id="@+id/contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.git.hkl.slidemenuapplication.list.LetterView
+        android:id="@+id/letter_view"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/letter_bg"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+</RelativeLayout>
