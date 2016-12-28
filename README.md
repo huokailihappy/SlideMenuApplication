@@ -3,13 +3,12 @@
 
 效果展示
 
-![image](https://raw.githubusercontent.com/huokailihappy/pic/master/pic1.png)
+![image](https://raw.githubusercontent.com/huokailihappy/SlideMenuApplication/master/SlideMenuApplication/pic/pic1.png)
 
 
 比较代码，在这里可以修改比较的前几位
 
 
-@Override
 public int compare(String o1, String o2) {
 int c1 = (o1.charAt(0) + "").toUpperCase().hashCode();
 int c11 = '#', c21 = '#';
