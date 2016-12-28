@@ -4,30 +4,3 @@
 效果展示
 
 ![image](https://raw.githubusercontent.com/huokailihappy/pic/master/pic1.png)
-
-
-比较方法：在这里可以修改比较的位数
-@Override
-    public int compare(String o1, String o2) {
-        int c1 = (o1.charAt(0) + "").toUpperCase().hashCode();
-        int c11 = '#', c21 = '#';
-        if (o1.length() > 1) {
-            c11 = (o1.charAt(1) + "").toUpperCase().hashCode();
-        }
-        int c2 = (o2.charAt(0) + "").toUpperCase().hashCode();
-        if (o1.length() > 1) {
-            c21 = (o2.charAt(1) + "").toUpperCase().hashCode();
-        }
-
-        boolean c1Flag = notChara(c1); // 不是字母
-        boolean c2Flag = notChara(c2); // 不是字母
-        if (c1Flag && !c2Flag) {
-            return 1;
-        } else if (!c1Flag && c2Flag) {
-            return -1;
-        }
-        if (c1 == c2) {
-            return c11 - c21;
-        } else {
-            return c1 - c2;
-        }
