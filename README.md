@@ -1,14 +1,14 @@
 # SlideMenuApplication
-联系人列表，房间号列表，显示前两位，支持数字字母检索，支持快速滑动，采用RecycleView展示数据，支持下拉刷新下拉加载更多，支持添加搜索头部
-
-效果展示
+联系人列表，房间号列表，显示前两位，支持数字字母检索，支持快速滑动，采用RecycleView展示数据，支持下拉刷新下拉加载更多，支持添加搜索头部，还可以根据自己的需要添加头部尾部。
+___效果展示
 
 ![image](https://raw.githubusercontent.com/huokailihappy/SlideMenuApplication/master/SlideMenuApplication/pic/pic1.png)
 
 
-比较代码，在这里可以修改比较的前几位
+____比较代码，在这里可以修改比较的前几位
 
 ```
+//这里比较的是前两位
 public int compare(String o1, String o2) {
 int c1 = (o1.charAt(0) + "").toUpperCase().hashCode();
 int c11 = '#', c21 = '#';
