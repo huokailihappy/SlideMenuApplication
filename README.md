@@ -8,7 +8,7 @@
 
 比较代码，在这里可以修改比较的前几位
 
-
+```
 public int compare(String o1, String o2) {
 int c1 = (o1.charAt(0) + "").toUpperCase().hashCode();
 int c11 = '#', c21 = '#';
@@ -32,3 +32,4 @@ return c11 - c21;
 } else {
 return c1 - c2;
 }
+```
